@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const url = 'http://35.174.114.172/:5000/posts';
+const url = 'http://54.173.67.140:5000/posts/';
 
 export const fetchPosts = () => axios.get(url);
 export const createPost = (newPost) => axios.post(url, newPost);
